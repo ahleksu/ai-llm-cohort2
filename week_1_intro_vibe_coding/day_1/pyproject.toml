@@ -1,0 +1,18 @@
+[project]
+name = "01-jayr-day-1"
+version = "1.0.0"
+description = "Solutions to Day 1 Activities: Prompt Engineering Techniques with OpenAI GPT-4.1-nano - Exploring Zero-Shot, Few-Shot, and Chain of Thought prompting strategies"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "jupyter>=1.1.1",
+    "langchain-community>=0.3.26",
+    "langchain-core>=0.3.67",
+    "langchain-openai>=0.3.27",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.5.0",
+    "langsmith>=0.4.4",
+    "openai>=2.5.0",
+    "pandas>=2.3.0",
+    "pymupdf>=1.26.1",
+]
